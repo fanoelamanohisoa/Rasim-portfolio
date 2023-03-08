@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <!-- fontawesome ******* -->
+    <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    <title>Portfolio</title>
+</head>
+<body>
+    <section id="home">
+        <!-- navigation ------------------->
+        <nav>
+            <!-- logo -->
+            <a href="" class="logo">ROBINSON</a>
+            <!-- menu -->
+            <ul>
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact</a></li>
+                
+            </ul>
+            <!-- bars ****-->
+            <div class="toggle"></div>
+        </nav>
+        <!-- ****** Text ********* -->
+        <div class="text-container">
+            <p>Hello,</p>
+            <p>I'm Sitraka,</p>
+            <p>a Business Lawyer</p>
+            <a href="#contact"><button class="hire-btn">Hire me</button></a>
+            
+
+            <a href="cv.pdf" target="_blank"><button class="down-cv">Download cv</button></a>
+        </div>
+        <!-- model ************* -->
+        <img src="images/model.png" class="model" alt="">
+    </section>
+    <!-- about section *********-->
+    <div class="about-container" id="about">
+        <!-- img **************-->
+        <img src="images/about-img.png" alt="">
+        <!-- about-text **********-->
+        <div class="about-text">
+            <p>About me</p>
+            <p>I'm a Business Lawyer based here in Madagascar.</p>
+            <p>Hi there, my name is ROBINSON Sitraka Nirina. Motivated  LAWYER with ten years of experience in business 
+            law as well as in the field of debt collection and litigation. Appreciated for my capacity to work hard and
+            adaptation in any situation, for my ability to assess operational needs and find solutions to reduce costs,
+            increase revenue and customer satisfaction. Rigorous and organized, I have proven my ability to lead and build teams.</p>
+            <P>In addition, I have training and supervision experience and am a competent legal writer. I am looking for a full time position with the opportunity to
+            grow. Integrating a business where my legal skills will be taken to profit with willingness to improve knowledge and skills.</P>
+            <a href="#contact"><button>Hire me</button></a>
+            <a href="cv.pdf" target="_blank"><button>Download CV</button></a>
+        </div>
+    </div>
+    <!-- services ************--> 
+    <div class="services">
+        <!-- text **** -->
+        <div class="services-text">
+            <p>My Services</p>
+            <p>Risk management and business negotiation, debt collection and litigation, human resources, the drafting and
+            validation of contracts.</p>
+            <p>Writing - Seeking information - Microsoft office package: Microsoft Word , Excel, Access
+Internet - Computer science - Teamwork skills - Creativity - Ability to adjust to new situations - presentation
+Loyalty - Optimism - able to demonstrate detailed knowledge and technical expertise in dealing with complex private client caseloads, etc ..</p>
+        </div>
+        <!-- box -->
+        <div class="box-container">
+            <!-- 1*********** -->
+            <div class="box-1">
+                <span>1</span>
+                <p class="heading">Negotiation cells</p>
+                <p class="details">Appreciated for my ability to work hard and adapt to the situation, to analyze and assess operational needs in order to find
+                quick and effective solutions according to the problem.</p>
+                <!-- <button>Read More</button> -->
+            </div>
+            <!-- 2*********** -->
+            <div class="box-2">
+                <span>2</span>
+                <p class="heading">Legal documents</p>
+                <p class="details">Specialized in private law and business law; sometimes in a specific area of legal expertise.
+                Via my services, I can accomplish all your tasks related to the legal field, related to your Company.</p>
+                <!-- <button>Read More</button> -->
+            </div>
+            <!-- 3*********** -->
+            <div class="box-3">
+                <span>3</span>
+                <p class="heading">Account incident</p>
+                <p class="details">Analysis and anticipation. The mission is to diagnose, advise, take the necessary actions to solve 
+                problems and protect the interests and the activity of the company. All tasks related to account incident.</p>
+                <!-- <button>Read More</button> -->
+            </div>
+        </div>
+    </div><br>
+    <!-- contact me ************ -->
+    <div class="contact-me">
+        <p>10 years experiences in Business Law</p>
+        <button>Call me: +261 34 33 022 05</button>
+    </div>
+    <!-- footer ***************-->
+    <footer id="contact">
+        <p>Business Lawyer</p>
+        <p>I do all the tasks related to the legal field of your Business. I choose and
+        evaluate the strategies and select the most appropriate according to the qualification of your case, the law and the
+        applicable procedure (civil or criminal), available.</p>
+           <!-- social *******-->
+           <div class="social-icons">
+               <a href="#"><i class="fab fa-facebook-f"></i></a>
+               <a href="#"><i class="fab fa-twitter"></i></a>
+               <a href="#"><i class="fab fa-instagram"></i></a>
+               <a href="#"><i class="fab fa-youtube"></i></a>
+           </div><br><br><br>
+           <!-- copyrights-->
+           <p class="copyright"> All copyrights strictly Reserved to Sitraka Robinson | Designed by <a href="https://fanoela.mg" target="_blank">Fanoela.mg</a> @2023</p>
+    </footer>
+    <!-- attached social bar *******-->
+    <div class="a-social-b">
+        <a href="#"><i class="fab fa-facebook-f"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+        <a href="#"><i class="fab fa-youtube"></i></a>
+    </div>
+    <!--Jquery -->
+    <script src="js/JQuery.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $('.toggle').click(function (){
+            $('.toggle').toggleClass('active')
+            $('').toggnavleClass('active')
+        })
+    })
+    </script>
+</body>
+</html>
