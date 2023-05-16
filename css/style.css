@@ -200,6 +200,7 @@ button:hover{
 .box-container{
     display: flex;
     justify-content: space-between;
+    padding-bottom:5rem;
 }
 .box-1{
     background-image: url("../images/services-1.png");
