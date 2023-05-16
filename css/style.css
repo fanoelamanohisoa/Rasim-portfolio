@@ -4,6 +4,7 @@ body{
     background-color:#f6f5f5;
     margin: 0px;
     padding: 0px;
+    overflow-x:hidden;
 }
 ul{
     list-style: none;
