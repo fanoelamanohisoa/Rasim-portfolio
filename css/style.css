@@ -432,6 +432,7 @@ text-align: center;
     }
     .contact-me{
         height: 200px;
+            margin-top: 30px;
     }
     .contact-me p{
         font-size: 26px;
