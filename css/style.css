@@ -526,6 +526,7 @@ text-align: center;
     }
     .contact-me{
         height: 180px;
+            margin-top: 10px;
     }
     .contact-me p{
         font-size: 18px;
