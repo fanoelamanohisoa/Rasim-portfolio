@@ -532,8 +532,9 @@ text-align: center;
         font-size: 18px;
     }
     .contact-me button{
-        width: 150px;
+        width: 200px;
         height: 33px;
+        
     }
     footer p:nth-child(2){
         width: 90%;
